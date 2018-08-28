@@ -1,0 +1,13 @@
+1. http://baijiahao.baidu.com/builder/app/login
+2. https://sso.toutiao.com/login
+3. https//mp.dayu.com
+4. https://om.qq.com
+5. "https://mp.yidianzixun.com/"
+6. "http://kuaichuan.360.cn/"
+7. https://mp.qutoutiao.net
+8. "https://mp.qq.com/"
+
+Note:
+2. https://s3.pstatp.com/toutiao/resource/ntoutiao_web/page/loginCtr/login/login_ea06bf7.js
+3. iframe
+https://api.open.uc.cn/cas/custom/login?change_uid=1&custom_login_type=common&display=pc&client_id=201&redirect_uri=https%3A%2F%2Fmp.dayu.com%2Flogin%2Fcallback
