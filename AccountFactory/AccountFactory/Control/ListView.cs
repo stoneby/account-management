@@ -443,5 +443,16 @@ namespace AccountFactory
         }
 
         #endregion
+
+        private void InitializeComponent()
+        {
+            this.SuspendLayout();
+            // 
+            // ListView
+            // 
+            this.HeaderStyle = System.Windows.Forms.ColumnHeaderStyle.None;
+            this.ResumeLayout(false);
+
+        }
     }
 }

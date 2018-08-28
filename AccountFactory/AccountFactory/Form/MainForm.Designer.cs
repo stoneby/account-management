@@ -34,7 +34,7 @@ namespace AccountFactory
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainForm));
             this.siteImageList = new System.Windows.Forms.ImageList(this.components);
-            this.userListView = new System.Windows.Forms.ListView();
+            this.userListView = new AccountFactory.ListView();
             this.columnHeader3 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.userImageList = new System.Windows.Forms.ImageList(this.components);
             this.userButton = new System.Windows.Forms.Button();
@@ -48,7 +48,7 @@ namespace AccountFactory
             this.label2 = new System.Windows.Forms.Label();
             this.imageBackgroundWorker = new System.ComponentModel.BackgroundWorker();
             this.webBrowser = new System.Windows.Forms.WebBrowser();
-            this.siteListView = new System.Windows.Forms.ListView();
+            this.siteListView = new AccountFactory.ListView();
             this.columnHeader1 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.testIEButton = new System.Windows.Forms.Button();
             this.SuspendLayout();
@@ -69,6 +69,7 @@ namespace AccountFactory
             // userListView
             // 
             this.userListView.AllowDrop = true;
+            this.userListView.AllowItemDrag = true;
             this.userListView.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left)));
             this.userListView.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
@@ -210,6 +211,7 @@ namespace AccountFactory
             // siteListView
             // 
             this.siteListView.AllowDrop = true;
+            this.siteListView.AllowItemDrag = true;
             this.siteListView.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left)));
             this.siteListView.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {

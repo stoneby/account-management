@@ -131,6 +131,9 @@
     <Compile Include="Control\BrowserTabUserControl.cs" />
     <Compile Include="Control\Event\CancelListViewItemDragEventArgs.cs" />
     <Compile Include="Control\Event\ListViewItemDragEventArgs.cs" />
+    <Compile Include="Control\ListView.cs">
+      <SubType>Component</SubType>
+    </Compile>
     <Compile Include="Form\BrowserForm.cs" />
     <Compile Include="Form\BrowserForm.Designer.cs">
       <DependentUpon>BrowserForm.cs</DependentUpon>
@@ -155,9 +158,6 @@
       <SubType>Component</SubType>
     </Compile>
     <Compile Include="Control\InsertionMode.cs" />
-    <AdditionalFiles Include="Control\ListView.cs">
-      <SubType>Component</SubType>
-    </AdditionalFiles>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Data\UserConf.cs" />
@@ -172,6 +172,9 @@
     <Compile Include="StateMachine\AbstractState.cs" />
     <Compile Include="StateMachine\StateMachine.cs" />
     <Compile Include="WebApi\WebApi.cs" />
+    <EmbeddedResource Include="Control\ListView.resx">
+      <DependentUpon>ListView.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Form\BrowserForm.resx">
       <DependentUpon>BrowserForm.cs</DependentUpon>
     </EmbeddedResource>
